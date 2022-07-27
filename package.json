@@ -1,0 +1,24 @@
+{
+  "name": "splitee",
+  "version": "1.0.1",
+  "description": "A simple command-line based tool for splitting and merging the files.",
+  "repository": "https://github.com/Ezharjan/splitee",
+  "bin": {
+    "splitee": "index.js"
+  },
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [
+    "split",
+    "merge",
+    "file"
+  ],
+  "author": "Alexander Ezharjan",
+  "email": "mysoft@111.com",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.2.4",
+    "bluebird": "^3.7.2"
+  }
+}
